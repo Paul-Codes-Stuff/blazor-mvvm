@@ -1,4 +1,4 @@
-﻿using BlazorMvvm.Model.Weather;
+﻿using BlazorMvvm.Model.Abstractions;
 using BlazorMvvm.ViewModel.Abstractions.Weather;
 using BlazorMvvm.ViewModel.Shared;
 using System;

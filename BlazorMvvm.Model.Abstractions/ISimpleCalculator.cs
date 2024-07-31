@@ -1,4 +1,4 @@
-﻿namespace BlazorMvvm.Model.Calculator;
+﻿namespace BlazorMvvm.Model.Abstractions;
 
 public interface ISimpleCalculator
 {

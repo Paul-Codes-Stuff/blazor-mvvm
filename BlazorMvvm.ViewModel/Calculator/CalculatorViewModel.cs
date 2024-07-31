@@ -1,4 +1,4 @@
-﻿using BlazorMvvm.Model.Calculator;
+﻿using BlazorMvvm.Model.Abstractions;
 using BlazorMvvm.ViewModel.Abstractions.Calculator;
 using BlazorMvvm.ViewModel.Shared;
 using System.Diagnostics.CodeAnalysis;

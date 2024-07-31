@@ -1,4 +1,5 @@
-﻿using BlazorMvvm.Model.Weather;
+﻿using BlazorMvvm.Model.Abstractions;
+using BlazorMvvm.Model.Entities;
 using BlazorMvvm.ViewModel.Abstractions.Weather;
 using BlazorMvvm.ViewModel.Weather;
 using Moq;

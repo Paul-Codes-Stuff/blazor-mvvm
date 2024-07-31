@@ -1,4 +1,6 @@
-﻿namespace BlazorMvvm.Model.Weather;
+﻿using BlazorMvvm.Model.Entities;
+
+namespace BlazorMvvm.Model.Abstractions;
 
 public interface IWeatherForecaster
 {

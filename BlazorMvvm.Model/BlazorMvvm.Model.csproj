@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorMvvm.Model.Abstractions\BlazorMvvm.Model.Abstractions.csproj" />
+    <ProjectReference Include="..\BlazorMvvm.Model.Entities\BlazorMvvm.Model.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

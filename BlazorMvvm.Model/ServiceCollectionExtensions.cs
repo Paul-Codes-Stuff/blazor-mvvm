@@ -1,5 +1,4 @@
-﻿using BlazorMvvm.Model.Calculator;
-using BlazorMvvm.Model.Weather;
+﻿using BlazorMvvm.Model.Abstractions;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
