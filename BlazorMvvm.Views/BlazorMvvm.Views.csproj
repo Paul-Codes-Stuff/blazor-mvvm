@@ -17,10 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\BlazorMvvm.ViewModel.Abstractions\BlazorMvvm.ViewModel.Abstractions.csproj" />
   </ItemGroup>
 

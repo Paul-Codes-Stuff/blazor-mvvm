@@ -13,4 +13,8 @@
     <ProjectReference Include="..\BlazorMvvm.Views\BlazorMvvm.Views.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
 </Project>
