@@ -15,17 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMvvm.Model", "BlazorM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMvvm.Views", "BlazorMvvm.Views\BlazorMvvm.Views.csproj", "{CFBD423A-C799-4249-9A6D-FA16AF1DF68C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMvvm.Entry", "BlazorMvvm.Entry\BlazorMvvm.Entry.csproj", "{0A7E458D-5F8C-472F-AFE8-DBF7994E4C90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMvvm", "BlazorMvvm\BlazorMvvm.csproj", "{0A7E458D-5F8C-472F-AFE8-DBF7994E4C90}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMvvm.ViewModel.Abstractions", "BlazorMvvm.ViewModel.Abstractions\BlazorMvvm.ViewModel.Abstractions.csproj", "{439B061A-9139-4D3D-8C11-09DA104B4B3A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMvvm.ViewModel", "BlazorMvvm.ViewModel\BlazorMvvm.ViewModel.csproj", "{8E421643-FC4D-48FA-B4F2-A5BD29F60986}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMvvm.ViewModel.Tests", "BlazorMvvm.ViewModel.Tests\BlazorMvvm.ViewModel.Tests.csproj", "{5B50E954-7328-4308-8EF1-FC61842574FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMvvm.ViewModel.Tests", "BlazorMvvm.ViewModel.Tests\BlazorMvvm.ViewModel.Tests.csproj", "{5B50E954-7328-4308-8EF1-FC61842574FB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMvvm.Model.Abstractions", "BlazorMvvm.Model.Abstractions\BlazorMvvm.Model.Abstractions.csproj", "{9F02B45D-A0F4-4E0E-9158-54B6B7A67DC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMvvm.Model.Entities", "BlazorMvvm.Model.Entities\BlazorMvvm.Model.Entities.csproj", "{19D579B3-D2CD-4330-AE41-F3077736D7B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMvvm.Model.Entities", "BlazorMvvm.Model.Entities\BlazorMvvm.Model.Entities.csproj", "{19D579B3-D2CD-4330-AE41-F3077736D7B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
