@@ -15,7 +15,7 @@ public class CounterViewModel : ViewModelBase, ICounterViewModel
         _count = 0;
     }
 
-    public int CurrentCount { get { return _count; } set { _count = value; NotifyPropertyChanged(); } }
+    public int CurrentCount { get { return _count; } private set { _count = value; NotifyPropertyChanged(); } }
 
     public void IncrementCount()
     {

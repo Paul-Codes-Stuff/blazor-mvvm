@@ -20,8 +20,8 @@ public class CalculatorViewModel : ViewModelBase, ICalculatorViewModel
     public int? Number1 { get; set; }
     public int? Number2 { get; set; }
 
-    public int? Result { get { return _result; } set { _result = value; NotifyPropertyChanged(); } }
-    public string Message { get { return _message; } set { _message = value; NotifyPropertyChanged(); } }
+    public int? Result { get { return _result; } private set { _result = value; NotifyPropertyChanged(); } }
+    public string Message { get { return _message; } private set { _message = value; NotifyPropertyChanged(); } }
 
     public void PerformAddition()
     {
@@ -43,18 +43,12 @@ public class CalculatorViewModel : ViewModelBase, ICalculatorViewModel
             SetError();
     }
 
-    private void ClearMessage() => _message = string.Empty;
-    private void SetError() => _message = "You must enter 2 numbers!";
+    private void ClearMessage() => Message = string.Empty;
+    private void SetError() => Message = "You must enter 2 numbers!";
 
     [MemberNotNullWhen(true, nameof(Number1), nameof(Number2))]
     private bool EntryIsValid()
     {
-        if (Number1 is null || Number2 is null)
-        {
-            SetError();
-            return false;
-        }
-
-        return true;
+        return Number1 is not null && Number2 is not null;
     }
 }
