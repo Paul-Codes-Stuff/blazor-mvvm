@@ -10,6 +10,7 @@
     <ProjectReference Include="..\BlazorMvvm.Model.Abstractions\BlazorMvvm.Model.Abstractions.csproj" />
     <ProjectReference Include="..\BlazorMvvm.Model.Entities\BlazorMvvm.Model.Entities.csproj" />
     <ProjectReference Include="..\BlazorMvvm.ViewModel.Abstractions\BlazorMvvm.ViewModel.Abstractions.csproj" />
+    <ProjectReference Include="..\BlazorMvvm.ViewModel.Objects\BlazorMvvm.ViewModel.Objects.csproj" />
   </ItemGroup>
 
 </Project>

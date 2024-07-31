@@ -1,11 +1,7 @@
 ﻿using BlazorMvvm.Model.Abstractions;
 using BlazorMvvm.ViewModel.Abstractions.Weather;
+using BlazorMvvm.ViewModel.Objects.Weather;
 using BlazorMvvm.ViewModel.Shared;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BlazorMvvm.ViewModel.Weather;
 public class WeatherForecastTableViewModel : ViewModelBase, IWeatherForecastTableViewModel

@@ -1,13 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BlazorMvvm.ViewModel.Abstractions.Shared;
+namespace BlazorMvvm.Views.Components;
 public abstract class ComponentBaseWithViewModel<TViewModel> :
     ComponentBase,
     IDisposable

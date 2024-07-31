@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BlazorMvvm.ViewModel.Abstractions\BlazorMvvm.ViewModel.Abstractions.csproj" />
+    <ProjectReference Include="..\BlazorMvvm.ViewModel.Objects\BlazorMvvm.ViewModel.Objects.csproj" />
     <ProjectReference Include="..\BlazorMvvm.ViewModel\BlazorMvvm.ViewModel.csproj" />
   </ItemGroup>
 

@@ -1,10 +1,5 @@
 ﻿using BlazorMvvm.ViewModel.Counter;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BlazorMvvm.ViewModel.Tests;
 public class CounterViewModelUnitTests

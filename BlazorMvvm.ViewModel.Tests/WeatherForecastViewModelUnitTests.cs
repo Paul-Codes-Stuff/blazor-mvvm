@@ -1,13 +1,8 @@
 ﻿using BlazorMvvm.Model.Abstractions;
 using BlazorMvvm.Model.Entities;
-using BlazorMvvm.ViewModel.Abstractions.Weather;
+using BlazorMvvm.ViewModel.Objects.Weather;
 using BlazorMvvm.ViewModel.Weather;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BlazorMvvm.ViewModel.Tests;
 public class WeatherForecastViewModelUnitTests
